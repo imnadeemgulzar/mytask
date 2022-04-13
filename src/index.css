@@ -1,13 +1,106 @@
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+.GK_header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(99, 99, 16, 0.925);
+}
+.GK_logo {
+  padding: 0.3rem;
+  font-size: 3rem;
+  box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.8);
+  color: #fd89;
+  margin: 0.3rem;
+  margin-right: 3rem;
+}
+.GK_heading {
+  color: #fd99;
+}
+.addNote {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.singleCard {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.GK_form {
+  padding: 2rem;
+  background-color: #eee;
+  border-radius: 0.3rem;
+  box-shadow: 1rem 1rem 1rem rgba(99, 99, 16, 0.925);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.2rem;
+}
+.content {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+.submit-btn {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  background-color: #060;
+  color: #fff;
+}
+.cardBox {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: #eee;
+  border-radius: 0.3rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 40, 0, 0.8);
+}
+.taskName {
+  padding: 0.3rem 1rem;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #555;
+}
+.taskContent {
+  color: #777;
+  text-transform: capitalize;
+}
+.dlt_note {
+  background-color: red;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: #eee;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
 }
